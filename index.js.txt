@@ -424,7 +424,7 @@ client.on("message", async message => {
 
 
 
-client.login('NjMwODI0ODEyMjcyNTQ5OTA5.XZt7cg.h9H2h1FnJSk2HxYwnVMZbow01KM').catch(err => {
+client.login('TOKEN').catch(err => {
 console.error('Giriş Yapamadım')
 console.error(err.message)
 });
