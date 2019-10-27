@@ -1,4 +1,5 @@
 exports.run = async (client, message) => {
+  if (message.author.id != "393016615312031754") return message.reply('Bunu Sadece **SAHİBİM** Kullanabilir');
   const voiceChannel = message.member.voiceChannel;
   if (!message.member.voiceChannel) { return message.channel.send("Ses kanalında değilsin bak! Beni yalnız olmaya zorlama!"); }
 
