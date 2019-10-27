@@ -32,6 +32,13 @@ return message.reply('Seninle Ölüme Bile Gelirim ')
 }
 });
 
+client.on("message", message => {
+    const kufur = ["sg","oç","oçe"];
+    if (kufur.some(word => message.content.includes(word)) ) {
+        message.reply("Küfür Etme! :rage:")
+        message.delete()
+    }
+});
 
               
 
