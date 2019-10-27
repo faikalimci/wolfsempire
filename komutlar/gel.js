@@ -21,7 +21,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: "gir",
+  name: "gel",
   description: "Joins the VC that you are in.",
   
 };
